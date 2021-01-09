@@ -18,3 +18,7 @@ def drop_db
     DB.execute("DROP TABLE #{table}")
   end
 end
+
+# require_relative '../01_create_students.rb'
+# require_relative '../02_add_grade_and_birthdate_to_students.rb'
+# require_relative '../03_change_datatype_for_birthdate.rb'
